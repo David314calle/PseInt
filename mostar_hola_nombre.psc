@@ -1,8 +1,8 @@
 //Mostra Hola mas su nombre, con Funcion 
 
 //funcion
-Funcion mostracion(nom)
-	Escribir "Hola ", nom;
+Funcion escribir_nombre (nom, ape)
+	Escribir "Hola ", nom, " ", ape;
 Fin Funcion
 
 //Algoritmo
@@ -10,7 +10,10 @@ Algoritmo mostar_hola_nombre
 //entradas
 	Escribir "Por favor escriba su nombre ";
 	Leer nom;
+	Escribir "por favor escriba su apellido ";
+	leer ape;
 // Salida
-	mostracion(nom)
+	escribir_nombre(nom,ape)
+	
 	
 FinAlgoritmo
