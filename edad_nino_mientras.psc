@@ -1,7 +1,7 @@
 Algoritmo edad_nino
 	Definir edad, contador Como Entero
 
-	Escribir "Por favor ingrese su edad";
+	Escribir "Por favor ingrese su edad: ";
 	Leer edad
 	contador<-1
 	
